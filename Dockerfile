@@ -12,6 +12,7 @@ RUN apk update && \
 ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk
 ENV SDK_TOOL_VERSION=sdk-tools-linux-4333796
 ENV ANDROID_HOME=/usr/local/android-sdk-linux
+ENV ANDROID_SDK_ROOT=/usr/local/android-sdk-linux/sdk
 ENV BUILD_TOOLS_VERSION=28.0.3
 ENV PLATFORMS_VERSION=android-28
 ENV PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin
